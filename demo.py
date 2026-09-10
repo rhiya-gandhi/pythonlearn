@@ -5,5 +5,8 @@
 
 # print(f"{age} years = {age*365} days")
 
-min = int(input("enter minutes"))
-print(f"{min} is {min/60} hours {min%60} minutes")
+# min = int(input("enter minutes"))
+# print(f"{min} is {min/60} hours {min%60} minutes")
+
+num = int(input("enter a num"))
+print(f"{num} : last digit is {num%10}")
