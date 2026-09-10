@@ -1,6 +1,9 @@
 # a = int(input("enter a number"))
 # print("number is odd:", a%2!=0)
 
-age = int(input("enter age "))
+# age = int(input("enter age "))
 
-print(f"{age} years = {age*365} days")
+# print(f"{age} years = {age*365} days")
+
+min = int(input("enter minutes"))
+print(f"{min} is {min/60} hours {min%60} minutes")
